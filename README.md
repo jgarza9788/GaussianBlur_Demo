@@ -34,20 +34,27 @@ Table of Contents
 	* Create Material
 	* Use Material
 	* Change Material via Script
-  
+2. F.A.Q.s
+	* What is edge smear? 
+	* Why are there two shaders?
+	* Why is it black?
+	* Why is it blocky?
+
+
 How to Use
 -------------------------------------
 ####Create Material
 Create a new material, name it as needed.  
 Assign the GaussianBlur shader to it.
 
-![Imgur](http://i.imgur.com/FFtSIYl.png)
+![Imgur](http://i.imgur.com/FFtSIYlm.png)
 
 ####Use Material
 Assign the new material to an image within your canvas.
 
-![Imgur](http://i.imgur.com/XIshcrM.png)
+![Imgur](http://i.imgur.com/XIshcrMm.png)
 
+Note: if you used GaussianBlurV2.shader make sure to add SyncCoordinates.cs to the same image in your canvas.
 
 ####Change Material via Script
 This Shader has 5 properties.  
@@ -64,6 +71,7 @@ This Shader has 5 properties.
  * Use low number for mobile/low-end devices
 5. _Reprocess
  * Reprocess the blur
+ * (does not exist on GaussianBlurV2.shader)
 
 
 
@@ -92,5 +100,36 @@ Please see the DemoSliderControl.cs script for more information.
 
 For more information about materials please see
 https://docs.unity3d.com/ScriptReference/Material.html
+
+
+F.A.Q.s
+-------------------------------------
+####What is edge smear?   
+Edge Smear is the name of an issue where objects outside of the UI get smeared in from the edge and effect the blur. 
+
+Edge Smear only occurs if you decided to use the GaussianBlurV1.shader
+
+![Imgur](http://i.imgur.com/OGPs9vFm.png)
+
+####Why are there two shaders? 
+
+GaussianBlurV1.shader:  
+Is my first attempt at this shader.
+However, it suffers from the Edge Smear.
+
+GaussianBlurV2.shader:  
+Is my second attempt at this shader.
+It doesn't suffer from the Edge Smear, however it needs more information to render properly. (see SyncCoordinates.cs for more info) 
+
+![Imgur](http://i.imgur.com/kwOaR5Gm.png)
+
+####Why is it black?
+If GaussianBlurV2.shader is being used and the values like ScreenWidth, ScreenHeight, PanelWidth, PanelHeight..etc are not correct than the shader might render as black.
+
+####Why is it blocky?  
+If the Shader seems blocky (like in the image below), increase the Quality value in the shader.
+
+![Imgur](http://i.imgur.com/5xclyZ4m.png)
+
 
 
