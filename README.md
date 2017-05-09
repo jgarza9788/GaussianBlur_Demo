@@ -139,7 +139,7 @@ I have tested this script on the OSes and devices listed below.
 * OSX Macbook Pro
 * Windows7(bootcamp) Macbook Pro 
 
-However I understand people still might have an issue with this shader (i am working with a few at the time of writing this). I will do my best to help everyone with the issues they face, however it is not possible for me to buy additional hardware to test on. Feel free to ask for a refund if it doesn't work as expected for you. 
+Please understand that I couldn't test every graphics card, so if you have an error please feel free to reach out to me so we can try to solve it.
 
-*"The current answer is that refunds are possible, but you need to contact the asset seller first. If the seller agrees to a refund, the seller then needs to contact support@unity3d.com with the order number and say that a refund has been agreed on."*  
-Eric5h5 on [http://answers.unity3d.com](http://answers.unity3d.com/questions/144729/asset-store-refund-policy.html) 
+
+
