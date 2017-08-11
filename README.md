@@ -182,11 +182,11 @@ When the Scene is played the following events will occur.
 
 Below is a ScreenShot of the BlurRenderer.cs Script.
 
-**MaxBlur**: the maxium blur used to make the global textures.
-**Quality**: the quality of the blur (the lower the better for mobile)
-**TextureCnt**: the number of global textures generated (5 max)
-**DownRes**: lowering the resolution of the image that is captured from the camera. (the highter the better for mobile).
-**RenderNow**: a trigger mostly used for debugging in the unity editor.
+**MaxBlur**: the maxium blur used to make the global textures.  
+**Quality**: the quality of the blur (the lower the better for mobile)  
+**TextureCnt**: the number of global textures generated (5 max)  
+**DownRes**: lowering the resolution of the image that is captured from the camera. (the highter the better for mobile).  
+**RenderNow**: a trigger mostly used for debugging in the unity editor.  
 
 ![Imgur](http://i.imgur.com/QqZl5No.png)
 
@@ -194,9 +194,9 @@ Below is a ScreenShot of the BlurRenderer.cs Script.
 
 Uses properties and the global textures to generate a blurred effect on the screen.
 
-**_Lightnesss**: multiplies the color of the image to make it lighter, or darker.
-**_BlurSize**: A number between 0 and 1, in order to blender between each of the global textures (_Blur#).
-**_AlphaAsBlurSize**: Alpha in your image will be used to calculate the BlurSize.
+**_Lightnesss**: multiplies the color of the image to make it lighter, or darker.  
+**_BlurSize**: A number between 0 and 1, in order to blender between each of the global textures (_Blur#).  
+**_AlphaAsBlurSize**: Alpha in your image will be used to calculate the BlurSize.  
 
 ![Imgur](http://i.imgur.com/8h4rLRm.png)
 
