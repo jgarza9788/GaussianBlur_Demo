@@ -43,7 +43,7 @@ Create a new material, name it as needed.
 Assign the GaussianBlur shader to it.
 
 >**WARNING!**  
-GaussianBlur_LiveBlur.shader and GaussianBlur_LiveBlur_NoSmear.shader replaced the old versions (GaussianBlurV1 and GaussianBlurV2)
+GaussianBlur\_LiveBlur.shader and GaussianBlur\_LiveBlur\_NoSmear.shader replaced the old versions (GaussianBlurV1 and GaussianBlurV2)
 
 ![Imgur](http://i.imgur.com/qoy3uyxm.png)
 

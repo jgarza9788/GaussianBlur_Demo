@@ -8,29 +8,15 @@ Enjoy! :)
 
 ## Table of Contents
 
-* [Contact](#Contact)
-* [Description/Features](#Description-Features)
-* [Terms of Use](#Terms-of-Use)
-* [How to Use](#How-to-Use)
-	* [Preface](#Preface)
-	* [GaussianBlur_Live](#GaussianBlur_Live)
-		* [Create Material](#Create-Material)
-		* [Use Material](#Use-Material)
-		* [Change Material via Script](#Change-Material-via-Script)
-		* [Troubleshooting](#Troubleshooting)
-		  * [Edge Smear](#Edge-Smear)
-		  * [It's Black's](#It's-Black)
-		  * [It's Blocky](#It's-Blocky)
-		  * [I've got a ton of Errors!](#I've-got-a-ton-of-Errors!)
-	* [GaussianBlur_RenderBlur](#GaussianBlur_RenderBlur)
-		* [Demo Review](#Demo-Review)
-		* [BlurRenderer.cs](#BlurRenderer.cs)
-		* [GaussianBlur_RenderBlur.shader](#GaussianBlur_RenderBlur.shader)
-		* [Troubleshooting](#Troubleshooting)
-		  * [It's Blocky](#It's-Blocky)
-		  * [I've got a ton of Errors!](#I've-got-a-ton-of-Errors!)
-		  * [Doesn't Do WorldSpace](#Doesn't-Do-WorldSpace)
-		  * [Jumpy Update](#Jumpy-Update)
+<!-- TOC -->
+
+- [Table of Contents](#table-of-contents)
+- [Contact](#contact)
+- [Description Features](#description-features)
+- [Terms of Use](#terms-of-use)
+
+<!-- /TOC -->
+
 ## Contact
 
 Questions, suggestions, help needed?  
@@ -43,7 +29,7 @@ Contact Info: [justingarza.net/contact](http://justingarza.net/contact/)
 
 Includes 3 types of blur methods.  
 
-1. [GaussianBlur_Live] ()
+1. [GaussianBlur_Live] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Live.md)
 	* Layered Blur
 	* WorldSpace
 	* Alpha Mask
@@ -52,14 +38,14 @@ Includes 3 types of blur methods.
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
-2. [GaussianBlur_Mobile] ()
+2. [GaussianBlur_Mobile] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur and Lightness 
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
-3. [GaussianBlur_RenderBlur] ()
+3. [GaussianBlur_RenderBlur] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_RenderBlur.md)
 	* Render a blurred texture(s) once and reuse it/them
 	* Adjust Blur and Lightness 
 	* Alpha Mask
@@ -69,7 +55,7 @@ Includes 3 types of blur methods.
 	* Awesome demo
 
 >**WARNING!**  
-GaussianBlur_RenderBlur is obsolete and will be removed in future updates, please use GaussianBlur_Mobile instead.
+GaussianBlur\_RenderBlur is obsolete and will be removed in future updates, please use GaussianBlur\_Mobile instead.
 
 ## Terms of Use
 
