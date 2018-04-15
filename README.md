@@ -29,7 +29,7 @@ Contact Info: [justingarza.net/contact](http://justingarza.net/contact/)
 
 Includes 3 types of blur methods.  
 
-1. [GaussianBlur_Live] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Live.md)
+1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Live.md)
 	* Layered Blur
 	* WorldSpace
 	* Alpha Mask
@@ -38,14 +38,16 @@ Includes 3 types of blur methods.
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
-2. [GaussianBlur_Mobile] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
+	
+2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur and Lightness 
 	* Unity Free friendly
 	* Fully commented C# code
-	* Awesome demo
-3. [GaussianBlur_RenderBlur] (https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_RenderBlur.md)
+	* Awesome demo  
+	
+3. [GaussianBlur_RenderBlur](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_RenderBlur.md)
 	* Render a blurred texture(s) once and reuse it/them
 	* Adjust Blur and Lightness 
 	* Alpha Mask
@@ -53,7 +55,8 @@ Includes 3 types of blur methods.
 	* Unity Free friendly.
 	* Fully commented C# code.
 	* Awesome demo
-
+  
+  
 >**WARNING!**  
 GaussianBlur\_RenderBlur is obsolete and will be removed in future updates, please use GaussianBlur\_Mobile instead.
 
