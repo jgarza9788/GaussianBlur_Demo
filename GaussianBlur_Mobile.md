@@ -19,6 +19,7 @@ Enjoy! :)
 - [Troubleshooting](#troubleshooting)
     - [Doesn't Do WorldSpace](#doesnt-do-worldspace)
     - [Jumpy Update](#jumpy-update)
+    - [Blurring Other UI](#blurring-other-ui)
 
 <!-- /TOC -->
 
@@ -78,6 +79,10 @@ void Update()
 	//change the update rate
 	BR.UpdateRate = UpdateRate.value;
 
+	/*NEW*/
+	//you can now choose to use the gametime (i.e. deltaTime) or real time (i.e. unscaled time)
+	BR.updateUsingGameTime = true
+
 	//...
 }
 
@@ -113,4 +118,11 @@ Sorry, but this method doesn't support WorldSpace canvasses.
 
 ### Jumpy Update
 
-You might want to increase the UpdateRate, or Lower the DownRes.  
+You might want to decrease the UpdateRate, or Lower the DownRes.  
+
+### Blurring Other UI
+
+Blurring other UI can be tricky.
+The UI that should be blurred should be in the worldspace.
+If this UI is transparent, please use the Sprites-Default material.
+_See **Demo_OtherUI.scene** for example_

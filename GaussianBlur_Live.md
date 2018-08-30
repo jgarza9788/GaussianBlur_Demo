@@ -42,8 +42,8 @@ A GaussianBlur_Live effect for UI Components.
 Create a new material, name it as needed.  
 Assign the GaussianBlur shader to it.
 
->**WARNING!**  
-GaussianBlur\_LiveBlur.shader and GaussianBlur\_LiveBlur\_NoSmear.shader replaced the old versions (GaussianBlurV1 and GaussianBlurV2)
+~~>**WARNING!**  
+GaussianBlur\_LiveBlur.shader and GaussianBlur\_LiveBlur\_NoSmear.shader replaced the old versions (GaussianBlurV1 and GaussianBlurV2)~~
 
 ![Imgur](http://i.imgur.com/qoy3uyxm.png)
 
