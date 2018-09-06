@@ -16,6 +16,8 @@ Enjoy! :)
     - [Intro](#intro)
     - [Create or Update the Global Texture](#create-or-update-the-global-texture)
     - [Use the Global Texture](#use-the-global-texture)
+- [Using Blur in ScreenSpace-Camera Canvas](#using-blur-in-screenspace-camera-canvas)
+- [Using Blur for DropShadow/DropGlow](#using-blur-for-dropshadowdropglow)
 - [Troubleshooting](#troubleshooting)
     - [Doesn't Do WorldSpace](#doesnt-do-worldspace)
     - [Jumpy Update](#jumpy-update)
@@ -30,6 +32,8 @@ A GaussianBlur effect for UI Components.
 * Mobile Friendly
 * Adjust Blur and Lightness using C# or JS
 * Add alpha mask for different shapes!
+* **NEW** Works in ScreenSpace-Camera Mode 
+* **NEW** DropShadow/DropGlow (Alternate Use)
 * Unity Free friendly.
 * Fully commented C# code.
 * Awesome demos!
@@ -108,6 +112,22 @@ One is already set up for the Demo. (i.e. DemoBlur.mat)
 ![Imgur](https://i.imgur.com/pB5K7Y4m.png)
 
 
+## Using Blur in ScreenSpace-Camera Canvas
+
+If you plan to use the blur in a Canvas SpaceSpace-Camera mode, please mimic the set up you'll find in the "Demo_ScreenSpaceCamera" Scene.
+
+>Note: You'll need one Camera to render the blur (everything except for the Canvas and it's children), and another to render everything.
+
+![Imgur](https://i.imgur.com/x3zwRcQ.gif)
+
+## Using Blur for DropShadow/DropGlow
+
+If you plan to use the blur in a Canvas SpaceSpace-Camera mode, please mimic the set up you'll find in the "Demo_DropShadow" or "Demo_DropGlow" Scenes.
+
+>Note: You'll need one Camera to render the blur (All the sprites), and another to render everything.
+
+![Imgur](https://i.imgur.com/I9jWc4Gm.png)
+![Imgur](https://i.imgur.com/ZeYsy2am.png)
 
 ## Troubleshooting
 

@@ -43,6 +43,8 @@ _don't worry GaussianBlur_RenderBlur sucked_
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur and Lightness 
+	* **NEW** Works in ScreenSpace-Camera Mode 
+	* **NEW** DropShadow/DropGlow (Alternate Use)
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
