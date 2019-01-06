@@ -42,7 +42,7 @@ _don't worry GaussianBlur_RenderBlur sucked_
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
 	* Alpha Mask
 	* Mobile Friendly 
-	* Adjust Blur and Lightness 
+	* Adjust Blur, Lightness, Saturation, and TintColor
 	* **NEW** Works in ScreenSpace-Camera Mode 
 	* **NEW** DropShadow/DropGlow (Alternate Use)
 	* Unity Free friendly

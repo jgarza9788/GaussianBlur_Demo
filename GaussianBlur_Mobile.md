@@ -30,7 +30,7 @@ Enjoy! :)
 A GaussianBlur effect for UI Components.
 
 * Mobile Friendly
-* Adjust Blur and Lightness using C# or JS
+* Adjust Blur, Lightness, Saturation, and TintColor using C# or JS
 * Add alpha mask for different shapes!
 * **NEW** Works in ScreenSpace-Camera Mode 
 * **NEW** DropShadow/DropGlow (Alternate Use)
