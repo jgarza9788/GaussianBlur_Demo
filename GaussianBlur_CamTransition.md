@@ -1,4 +1,4 @@
- GaussianBlur_CamTransition
+GaussianBlur_CamTransition
 -------------------------------------
 [Asset Store Link](http://u3d.as/yJk)  
 © 2017 Justin Garza
@@ -8,12 +8,18 @@ Enjoy! :)
 
 ## Table of Contents
 
-****
-- [Table of Contents](#table-of-contents)
-- [Description Features](#description-features)
-- [How To Use GaussianBlur_CamTransition](#how-to-use-gaussianblur_camtransition)
-    - [Intro](#intro)
-            - [CamTransition_Controller.cs](#camtransition_controllercs)
+<!-- vscode-markdown-toc -->
+* [Table of Contents](#TableofContents)
+* [Description Features](#DescriptionFeatures)
+* [How To Use GaussianBlur_CamTransition](#HowToUseGaussianBlur_CamTransition)
+	* [Intro](#Intro)
+		* [CamTransition_Controller.cs](#CamTransition_Controller.cs)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc --> 
 
 
 ## Description Features
@@ -30,6 +36,12 @@ However, two cameras will render two different global textures and a shader will
 this will add BlurRenderer_CamTransition.cs to each camera and control their blurs, and control the transition between them.
 
 ![Imgur](https://i.imgur.com/jDsD1SG.png)
+
+
+### Additional Info
+read **CamTransition_Controller.cs**   
+& **BlurRenderer_CamTransition.cs**
+
 
 
 

@@ -8,14 +8,17 @@ Enjoy! :)
 
 ## Table of Contents
 
-<!-- TOC -->
+<!-- vscode-markdown-toc -->
+* [Table of Contents](#TableofContents)
+* [Contact](#Contact)
+* [Description Features](#DescriptionFeatures)
+* [Terms of Use](#TermsofUse)
 
-- [Table of Contents](#table-of-contents)
-- [Contact](#contact)
-- [Description Features](#description-features)
-- [Terms of Use](#terms-of-use)
-
-<!-- /TOC -->
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 ## Contact
 
@@ -43,12 +46,21 @@ _don't worry GaussianBlur_RenderBlur sucked_
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur, Lightness, Saturation, and TintColor
-	* **NEW** Works in ScreenSpace-Camera Mode 
-	* **NEW** DropShadow/DropGlow (Alternate Use)
+	* Works in ScreenSpace-Camera Mode 
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
-3. ~~GaussianBlur_RenderBlur~~
+    * Additional DEMOS!  
+        * Drop Glow
+        * Drop Shadow
+        * Pause/Play 
+        * ScreenSpace Camera
+        * Use with ScrollView
+3. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
+    * Blur and Transition between two Cameras
+
+
+~~4. GaussianBlur_RenderBlur~~
 	* ~~Render a blurred texture(s) once and reuse it/them~~
 	* ~~Adjust Blur and Lightness~~
 	* ~~Alpha Mask~~
