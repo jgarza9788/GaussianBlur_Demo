@@ -56,7 +56,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
         * Use with ScrollView
 3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
     * Blur and Transition between two Cameras
-4. [GaussianBlur_PPM]()
+4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur, Lightness, Saturation, and TintColor
