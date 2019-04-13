@@ -30,8 +30,6 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 
 ## Description Features
 
-Includes 2 types of blur methods.  
-_don't worry GaussianBlur_RenderBlur sucked_
 
 1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Live.md)
 	* Layered Blur
@@ -56,21 +54,17 @@ _don't worry GaussianBlur_RenderBlur sucked_
         * Pause/Play 
         * ScreenSpace Camera
         * Use with ScrollView
-3. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
+3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
     * Blur and Transition between two Cameras
+4. [GaussianBlur_PPM]()
+	* Alpha Mask
+	* Mobile Friendly 
+	* Adjust Blur, Lightness, Saturation, and TintColor
+    * Layered Blur
+    * WorldSpace
+    * uses Unity's **new** Post Processing Method
 
 
-~~4. GaussianBlur_RenderBlur~~
-	* ~~Render a blurred texture(s) once and reuse it/them~~
-	* ~~Adjust Blur and Lightness~~
-	* ~~Alpha Mask~~
-	* ~~Quality setting (to use less resources)~~
-	* ~~Unity Free friendly.~~
-	* ~~Fully commented C# code.~~
-	* ~~Awesome demo~~
-
-~~>**WARNING!**  
-GaussianBlur\_RenderBlur is obsolete and will be removed in future updates, please use GaussianBlur\_Mobile instead.~~
 
 ## Terms of Use
 
