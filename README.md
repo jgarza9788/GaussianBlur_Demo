@@ -62,7 +62,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 	* Adjust Blur, Lightness, Saturation, and TintColor
     * Layered Blur
     * WorldSpace
-    * uses Unity's **new** Post Processing Method
+    * uses Unity's Post Processing Method
 
 
 

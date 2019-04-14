@@ -22,11 +22,11 @@ Enjoy! :)
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc --> 
 
-
 ## Description Features
 
 This is a blur effect that is achieved using Unity's Post Processing Method.
 
+Since this uses the Post Processing Method it should be compatable with Unity's High Definition Render Pipeline (HDRP) and the Lightweight Render Pipeline (LWRP), however this is currently untested.
 
 ## How To Use GaussianBlur_PPM
 
@@ -53,10 +53,6 @@ Then add the GaussianBlur_PPM to your Post Processing Profile.
 
 ![Imgur](https://i.imgur.com/Mvcr3WC.png)
 
-
 > Note: if you don't have Post Processing installed you can get it from the menu (i.e. Window -> Package Manager -> Post Processing)
-
-
-
 
 
