@@ -8,25 +8,20 @@ Enjoy! :)
 
 ## Table of Contents
 
-<!-- vscode-markdown-toc -->
-* [Table of Contents](#TableofContents)
-* [Description Features](#DescriptionFeatures)
-* [How To Use GaussianBlur_PPM](#HowToUseGaussianBlur_PPM)
-	* [Intro](#Intro)
-		* [BlurEffect.cs](#BlurEffect.cs)
-		* [Postprocessing Layer and Postprocessing Volume](#PostprocessingLayerandPostprocessingVolume)
 
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --> 
+[[TOC]]]
+
+
 
 ## Description Features
 
 This is a blur effect that is achieved using Unity's Post Processing Method.
 
-Since this uses the Post Processing Method it should be compatable with Unity's High Definition Render Pipeline (HDRP) and the Lightweight Render Pipeline (LWRP), however this is currently untested.
+~~Since this uses the Post Processing Method it should be compatable with Unity's High Definition Render Pipeline (HDRP) and the Lightweight Render Pipeline (LWRP), however this is currently untested.~~
+
+This has been tested on Lightweight Render Pipeline (LWRP).  
+Still needs to be tested in High Definition Render Pipeline (HDRP).
+
 
 ## How To Use GaussianBlur_PPM
 
@@ -55,4 +50,6 @@ Then add the GaussianBlur_PPM to your Post Processing Profile.
 
 > Note: if you don't have Post Processing installed you can get it from the menu (i.e. Window -> Package Manager -> Post Processing)
 
+## Troubleshooting
 
+This method currently doesn't work in in a Canvas.

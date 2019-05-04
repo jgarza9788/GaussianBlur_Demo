@@ -9,10 +9,11 @@ Enjoy! :)
 ## Table of Contents
 
 <!-- vscode-markdown-toc -->
-* [Table of Contents](#TableofContents)
-* [Contact](#Contact)
-* [Description Features](#DescriptionFeatures)
-* [Terms of Use](#TermsofUse)
+- [GaussianBlur](#gaussianblur)
+- [Table of Contents](#table-of-contents)
+- [Contact](#contact)
+- [Description Features](#description-features)
+- [Terms of Use](#terms-of-use)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
