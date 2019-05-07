@@ -8,9 +8,15 @@ Enjoy! :)
 
 ## Table of Contents
 
-
-[[TOC]]]
-
+<!-- TOC -->
+- [GaussianBlur_PPM](#gaussianblurppm)
+- [Table of Contents](#table-of-contents)
+- [Description Features](#description-features)
+- [How To Use GaussianBlur_PPM](#how-to-use-gaussianblurppm)
+  - [Intro](#intro)
+    - [BlurEffect.cs](#blureffectcs)
+    - [Postprocessing Layer and Postprocessing Volume](#postprocessing-layer-and-postprocessing-volume)
+- [Troubleshooting](#troubleshooting)
 
 
 ## Description Features
