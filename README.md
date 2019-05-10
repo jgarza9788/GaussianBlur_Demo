@@ -8,18 +8,15 @@ Enjoy! :)
 
 ## Table of Contents
 
-<!-- vscode-markdown-toc -->
+<!-- TOC -->
+
 - [GaussianBlur](#gaussianblur)
 - [Table of Contents](#table-of-contents)
 - [Contact](#contact)
 - [Description Features](#description-features)
 - [Terms of Use](#terms-of-use)
 
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+<!-- /TOC -->
 
 ## Contact
 
@@ -30,7 +27,6 @@ Cell: 1-818-251-0647
 Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 
 ## Description Features
-
 
 1. [GaussianBlur_Live](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Live.md)
 	* Layered Blur
@@ -58,12 +54,20 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
     * Blur and Transition between two Cameras
 4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
+    * **(only in GaussianBlur+)**
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur, Lightness, Saturation, and TintColor
     * Layered Blur
     * WorldSpace
     * uses Unity's Post Processing Method
+5. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
+   * **(only in GaussianBlur+)**
+   * Alpha Mask
+   * Mobile Friendly 
+   * Adjust Blur, Lightness, Saturation, and TintColor 
+   * Layered Blur
+   * Compatable with Unity's Scriptable Rendering Pipelines 
 
 
 
