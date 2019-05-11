@@ -1,22 +1,19 @@
  GaussianBlur
 -------------------------------------
 [Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)  
 © 2017 Justin Garza
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
 Enjoy! :)
 
+
 ## Table of Contents
 
-<!-- TOC -->
-
-- [GaussianBlur](#gaussianblur)
-- [Table of Contents](#table-of-contents)
-- [Contact](#contact)
-- [Description Features](#description-features)
-- [Terms of Use](#terms-of-use)
-
-<!-- /TOC -->
+ * [Table of Contents](#table-of-contents)
+ * [Contact](#contact)
+ * [Description Features](#description-features)
+ * [Terms of Use](#terms-of-use)
 
 ## Contact
 
@@ -61,12 +58,11 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
     * Layered Blur
     * WorldSpace
     * uses Unity's Post Processing Method
-5. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
+5. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_SRP.md)
    * **(only in GaussianBlur+)**
    * Alpha Mask
    * Mobile Friendly 
    * Adjust Blur, Lightness, Saturation, and TintColor 
-   * Layered Blur
    * Compatable with Unity's Scriptable Rendering Pipelines 
 
 

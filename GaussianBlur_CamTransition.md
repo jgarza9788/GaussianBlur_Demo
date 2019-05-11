@@ -1,6 +1,7 @@
 GaussianBlur_CamTransition
 -------------------------------------
-[Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)  
 © 2017 Justin Garza
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
@@ -9,11 +10,13 @@ Enjoy! :)
 ## Table of Contents
 
 <!-- vscode-markdown-toc -->
-* [Table of Contents](#TableofContents)
-* [Description Features](#DescriptionFeatures)
-* [How To Use GaussianBlur_CamTransition](#HowToUseGaussianBlur_CamTransition)
-	* [Intro](#Intro)
-		* [CamTransition_Controller.cs](#CamTransition_Controller.cs)
+- [GaussianBlur_CamTransition](#gaussianblurcamtransition)
+- [Table of Contents](#table-of-contents)
+- [Description Features](#description-features)
+- [How To Use GaussianBlur_CamTransition](#how-to-use-gaussianblurcamtransition)
+  - [Intro](#intro)
+    - [CamTransition_Controller.cs](#camtransitioncontrollercs)
+  - [Additional Info](#additional-info)
 
 <!-- vscode-markdown-toc-config
 	numbering=false

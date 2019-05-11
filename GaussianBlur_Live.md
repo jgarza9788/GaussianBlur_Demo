@@ -1,24 +1,26 @@
  GaussianBlur_Live
 -------------------------------------
-[Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)  
 © 2017 Justin Garza
-
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
 Enjoy! :)
 
 ## Table of Contents
 
+- [GaussianBlur_Live](#gaussianblurlive)
+- [Table of Contents](#table-of-contents)
 - [Description Features](#description-features)
-- [How To Use GaussianBlur_Live](#how-to-use-gaussianblur_live)  
-	- [Create Material](#create-material)  
-	- [Use Material](#use-material)  
-	- [Change Material via Script](#change-material-via-script)  
-- [Troubleshooting](#troubleshooting)  
-	- [What is edge smear?](#what-is-edge-smear)  
-	- [It's Black?](#its-black)  
-	- [It's Blocky?](#its-blocky)  
-	- [I've got a ton of Errors!](#ive-got-a-ton-of-errors)  
+- [How To Use GaussianBlur_Live](#how-to-use-gaussianblurlive)
+  - [Create Material](#create-material)
+  - [Use Material](#use-material)
+  - [Change Material via Script](#change-material-via-script)
+- [Troubleshooting](#troubleshooting)
+  - [What is edge smear?](#what-is-edge-smear)
+  - [It's Black?](#its-black)
+  - [It's Blocky?](#its-blocky)
+  - [I've got a ton of Errors!](#ive-got-a-ton-of-errors)
 
 
 ## Description Features

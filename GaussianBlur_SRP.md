@@ -1,6 +1,7 @@
-GaussianBlur_PPM
+GaussianBlur_SRP (only in GaussianBlur+)
 -------------------------------------
-[Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)  
 © 2017 Justin Garza
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
@@ -8,53 +9,65 @@ Enjoy! :)
 
 ## Table of Contents
 
-- [GaussianBlur_PPM](#gaussianblurppm)
+- [GaussianBlur_SRP (only in GaussianBlur+)](#gaussianblursrp-only-in-gaussianblur)
 - [Table of Contents](#table-of-contents)
 - [Description Features](#description-features)
-- [How To Use GaussianBlur_PPM](#how-to-use-gaussianblurppm)
+- [How To Use GaussianBlur_SRP](#how-to-use-gaussianblursrp)
   - [Intro](#intro)
-    - [BlurEffect.cs](#blureffectcs)
-    - [Postprocessing Layer and Postprocessing Volume](#postprocessing-layer-and-postprocessing-volume)
-- [Troubleshooting](#troubleshooting)
-
+    - [SRP (LWRP/HDRP) Asset (aka Pipeline Asset)](#srp-lwrphdrp-asset-aka-pipeline-asset)
+    - [GaussianBlur_SRP.shader](#gaussianblursrpshader)
 
 ## Description Features
 
-This is a blur effect that is achieved using Unity's Post Processing Method.
+A GaussianBlur effect for UI Components.
 
-~~Since this uses the Post Processing Method it should be compatable with Unity's High Definition Render Pipeline (HDRP) and the Lightweight Render Pipeline (LWRP), however this is currently untested.~~
+* Mobile Friendly
+* Adjust Blur, Lightness, Saturation, and TintColor using C# or JS
+* Add alpha mask for different shapes!
+* Unity Free friendly.
+* Compatable with Unity's Scriptable Rendering Pipelines
 
-This has been tested on Lightweight Render Pipeline (LWRP).  
-Still needs to be tested in High Definition Render Pipeline (HDRP).
 
-
-## How To Use GaussianBlur_PPM
+## How To Use GaussianBlur_SRP
 
 ### Intro
 
-a gameObject will be set up with a special #C script that will create a texture that our camera will use to know which pixels it will need to blur.
+**GaussianBlur_SRP.shader** will color UI components based on a blured image of whatever is behind it.
 
-This is how the demo looks
+There are Two things that allow this Shader to work.
+1. A texture of what is rendered by the camera, this can be obtained using the SRP (LWRP/HDRP) Asset.
+2. The Shader that will Blur the texture and set the color of the UI Component.
 
-![Imgur](https://i.imgur.com/fuX6Fj9.png)
 
-#### BlurEffect.cs
-Attach this script to objects that you want to be blurred. 
+#### SRP (LWRP/HDRP) Asset (aka Pipeline Asset)
 
-This Script will create a texture where the pixels that should be blurred are more white then the pixels that should not be blurred.
+- [x] Opaque Texture  
+this needs to be checked so we can access the camera's texture.
 
-![Imgur](https://i.imgur.com/Hs9cWUN.png)
+- [ ] Opaque Downsampling (Optional)  
+If you're planning to publish to mobile, consider downsampling.  
+i.e. switch this to: 2x Bilinear, 4x Box, or 4x Bilinear
 
-#### Postprocessing Layer and Postprocessing Volume
+![Imgur](https://i.imgur.com/WLDUX1y.png)
 
-Now we need to attach the Post Processing Layer and the Post Processing Volumne to our camera.
 
-Then add the GaussianBlur_PPM to your Post Processing Profile.
+#### GaussianBlur_SRP.shader
+Use this shader in any material you attach to a UI Object.  
+_see DemoBlur.mat as an example_
 
-![Imgur](https://i.imgur.com/Mvcr3WC.png)
+This Shader has 4 Properties
 
-> Note: if you don't have Post Processing installed you can get it from the menu (i.e. Window -> Package Manager -> Post Processing)
+* _Iterations
+  * Blur Ammount
+* _Lightness
+  * Darkness/Lightness
+* _Saturation
+  * How much Color or Add/Substract
+* _TintColor
+  * Color to Tint it by
 
-## Troubleshooting
+![Video Demo](https://youtu.be/0SPwN2RAnkE)
 
-This method currently doesn't work in in a Canvas.
+
+
+

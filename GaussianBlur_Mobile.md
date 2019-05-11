@@ -1,6 +1,7 @@
  GaussianBlur_Mobile
 -------------------------------------
-[Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)  
 © 2017 Justin Garza
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
@@ -8,22 +9,22 @@ Enjoy! :)
 
 ## Table of Contents
 
-<!-- TOC -->
 
+- [GaussianBlur_Mobile](#gaussianblurmobile)
 - [Table of Contents](#table-of-contents)
 - [Description Features](#description-features)
-- [How To Use GaussianBlur_Mobile](#how-to-use-gaussianblur_mobile)
-    - [Intro](#intro)
-    - [Create or Update the Global Texture](#create-or-update-the-global-texture)
-    - [Use the Global Texture](#use-the-global-texture)
+- [How To Use GaussianBlur_Mobile](#how-to-use-gaussianblurmobile)
+  - [Intro](#intro)
+  - [Create or Update the Global Texture](#create-or-update-the-global-texture)
+  - [Use the Global Texture](#use-the-global-texture)
 - [Using Blur in ScreenSpace-Camera Canvas](#using-blur-in-screenspace-camera-canvas)
 - [Using Blur for DropShadow/DropGlow](#using-blur-for-dropshadowdropglow)
 - [Troubleshooting](#troubleshooting)
-    - [Doesn't Do WorldSpace](#doesnt-do-worldspace)
-    - [Jumpy Update](#jumpy-update)
-    - [Blurring Other UI](#blurring-other-ui)
+  - [Doesn't Do WorldSpace](#doesnt-do-worldspace)
+  - [Jumpy Update](#jumpy-update)
+  - [Blurring Other UI](#blurring-other-ui)
 
-<!-- /TOC -->
+
 
 ## Description Features
 

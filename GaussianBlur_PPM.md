@@ -1,14 +1,16 @@
-GaussianBlur_PPM
+GaussianBlur_PPM (only in GaussianBlur+)
 -------------------------------------
-[Asset Store Link](http://u3d.as/yJk)  
+[GaussianBlur](http://u3d.as/yJk)  
+[GaussianBlur+](http://u3d.as/1wQD)   
 © 2017 Justin Garza
+
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
 Enjoy! :)
 
 ## Table of Contents
 
-- [GaussianBlur_PPM](#gaussianblurppm)
+- [GaussianBlur_PPM (only in GaussianBlur+)](#gaussianblurppm-only-in-gaussianblur)
 - [Table of Contents](#table-of-contents)
 - [Description Features](#description-features)
 - [How To Use GaussianBlur_PPM](#how-to-use-gaussianblurppm)
@@ -21,8 +23,6 @@ Enjoy! :)
 ## Description Features
 
 This is a blur effect that is achieved using Unity's Post Processing Method.
-
-~~Since this uses the Post Processing Method it should be compatable with Unity's High Definition Render Pipeline (HDRP) and the Lightweight Render Pipeline (LWRP), however this is currently untested.~~
 
 This has been tested on Lightweight Render Pipeline (LWRP).  
 Still needs to be tested in High Definition Render Pipeline (HDRP).
