@@ -30,6 +30,8 @@ Enjoy! :)
 This uses a modified method used in GaussianBlur_Mobile.
 However, two cameras will render two different global textures and a shader will fade between them.
 
+* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+
 ## How To Use GaussianBlur_CamTransition
 
 ### Intro

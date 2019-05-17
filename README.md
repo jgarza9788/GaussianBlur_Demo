@@ -34,6 +34,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 	* Unity Free friendly
 	* Fully commented C# code
 	* Awesome demo
+	* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
 	* Alpha Mask
 	* Mobile Friendly 
@@ -48,8 +49,10 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
         * Pause/Play 
         * ScreenSpace Camera
         * Use with ScrollView
+    * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
     * Blur and Transition between two Cameras
+    * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
     * **(only in GaussianBlur+)**
 	* Alpha Mask

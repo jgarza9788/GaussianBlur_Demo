@@ -33,12 +33,13 @@ A GaussianBlur effect for UI Components.
 * Mobile Friendly
 * Adjust Blur, Lightness, Saturation, and TintColor using C# or JS
 * Add alpha mask for different shapes!
-* **NEW** Works in ScreenSpace-Camera Mode 
-* **NEW** DropShadow/DropGlow (Alternate Use)
+* Works in ScreenSpace-Camera Mode 
+* DropShadow/DropGlow (Alternate Use)
 * Unity Free friendly.
 * Fully commented C# code.
 * Awesome demos!
-
+* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+  
 ## How To Use GaussianBlur_Mobile
 
 ### Intro

@@ -36,7 +36,7 @@ A GaussianBlur_Live effect for UI Components.
 * Unity Free friendly.
 * Fully commented C# code.
 * Awesome demos!
-
+* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 
 ## How To Use GaussianBlur_Live
 
