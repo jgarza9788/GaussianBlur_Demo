@@ -14,18 +14,22 @@ Enjoy! :)
 - [Table of Contents](#table-of-contents)
 - [Description Features](#description-features)
 - [How To Use GaussianBlur_PPM](#how-to-use-gaussianblurppm)
-  - [Intro](#intro)
-    - [BlurEffect.cs](#blureffectcs)
-    - [Postprocessing Layer and Postprocessing Volume](#postprocessing-layer-and-postprocessing-volume)
+    - [Intro](#intro)
+        - [BlurEffect.cs](#blureffectcs)
+        - [Postprocessing Layer and Postprocessing Volume](#postprocessing-layer-and-postprocessing-volume)
 - [Troubleshooting](#troubleshooting)
 
+  
 
 ## Description Features
 
-This is a blur effect that is achieved using Unity's Post Processing Method.
-
-This has been tested on Lightweight Render Pipeline (LWRP).  
-Still needs to be tested in High Definition Render Pipeline (HDRP).
+* Alpha Mask
+* Mobile Friendly 
+* Adjust Blur, Lightness, Saturation, and TintColor 
+* Layered Blur
+* WorldSpace
+* Uses Unity's Post Processing Method 
+* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 
 
 ## How To Use GaussianBlur_PPM

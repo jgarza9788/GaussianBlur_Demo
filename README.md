@@ -54,13 +54,13 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
     * Blur and Transition between two Cameras
     * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
-    * **(only in GaussianBlur+)**
 	* Alpha Mask
 	* Mobile Friendly 
 	* Adjust Blur, Lightness, Saturation, and TintColor
     * Layered Blur
     * WorldSpace
     * uses Unity's Post Processing Method
+    * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
 5. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_SRP.md)
    * **(only in GaussianBlur+)**
    * Alpha Mask
