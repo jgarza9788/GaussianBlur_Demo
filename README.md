@@ -1,7 +1,7 @@
  GaussianBlur
 -------------------------------------
 [Asset Store Link](http://u3d.as/yJk)  
-[GaussianBlur+](http://u3d.as/1wQD)  
+[GaussianBlur_plus](http://u3d.as/1wQD)  
 © 2017 Justin Garza
 
 PLEASE LEAVE A REVIEW OR RATE THE PACKAGE IF YOU FIND IT USEFUL!
@@ -35,6 +35,7 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
 	* Fully commented C# code
 	* Awesome demo
 	* NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+        * in old.zip
 2. [GaussianBlur_Mobile](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_Mobile.md)
 	* Alpha Mask
 	* Mobile Friendly 
@@ -50,9 +51,11 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
         * ScreenSpace Camera
         * Use with ScrollView
     * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+        * in old.zip
 3. [GaussianBlur_CamTransition](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_CamTransition.md)
     * Blur and Transition between two Cameras
     * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+        * in old.zip
 4. [GaussianBlur_PPM](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_PPM.md)
 	* Alpha Mask
 	* Mobile Friendly 
@@ -61,12 +64,18 @@ Contact Info: [justingarza.info/contact](http://justingarza.info/contact/)
     * WorldSpace
     * uses Unity's Post Processing Method
     * NOTE: This will not work with Scriptable Render Pipelines (LWRP/HDRP)
+        * in old.zip
 5. [GaussianBlur_SRP](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_SRP.md)
    * **(only in GaussianBlur+)**
    * Alpha Mask
    * Mobile Friendly 
    * Adjust Blur, Lightness, Saturation, and TintColor 
-   * Compatable with Unity's Scriptable Rendering Pipelines 
+   * Compatible with Unity's Scriptable Rendering Pipelines 
+6. [GaussianBlur_SG](https://github.com/jgarza9788/GaussianBlur_Demo/blob/master/GaussianBlur_SG.md)
+   * **(only in GaussianBlur+)**
+   * Adjust Blur, Lightness, Saturation, and TintColor 
+   * Made using Unity's ShaderGraph
+   * Compatible with Unity's Scriptable Rendering Pipelines 
 
 
 
