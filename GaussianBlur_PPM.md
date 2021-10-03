@@ -61,4 +61,5 @@ Then add the GaussianBlur_PPM to your Post Processing Profile.
 
 ## Troubleshooting
 
-This method currently doesn't work in in a Canvas.
+### This method currently doesn't work in in a Canvas.
+### make sure to import Post-Processing
